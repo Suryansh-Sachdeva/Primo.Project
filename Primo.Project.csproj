@@ -60,9 +60,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\Desktop\Equals.cs">
-      <Link>Equals.cs</Link>
-    </Compile>
+    <Compile Include="Equals.cs" />
     <Compile Include="MyElementUI.xaml.cs">
       <DependentUpon>MyElementUI.xaml</DependentUpon>
     </Compile>

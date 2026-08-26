@@ -58,7 +58,7 @@ namespace Primo.SDKSample
                 string a = GetPropertyValue<string>(Prop1, "Prop1", sd);
                 string b = GetPropertyValue<string>(Prop2, "Prop2", sd);
 
-                SetVariableValue(Result, a.Equals(b), typeof(bool), sd);
+                SetVariableValue(Result, string.Equals(a, b), typeof(bool), sd);
 
                 return new ExecutionResult() { SuccessMessage = "Done" };
             }
