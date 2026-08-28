@@ -60,6 +60,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contains.cs" />
     <Compile Include="Equals.cs" />
     <Compile Include="MyElementUI.xaml.cs">
       <DependentUpon>MyElementUI.xaml</DependentUpon>
