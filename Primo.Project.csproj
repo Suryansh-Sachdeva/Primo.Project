@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contains.cs" />
+    <Compile Include="Empty.cs" />
     <Compile Include="Equals.cs" />
     <Compile Include="MyElementUI.xaml.cs">
       <DependentUpon>MyElementUI.xaml</DependentUpon>
